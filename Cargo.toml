@@ -4,5 +4,8 @@ version = "0.1.0"
 authors = ["XavilPergis <max.duzen@gmail.com>"]
 build = "build.rs"
 
+description = "Raw bindings to WPI's ntcore"
+repository = "https://github.com/XavilPergis/ntcore-sys"
+
 [build-dependencies]
 bindgen = "0.33"
