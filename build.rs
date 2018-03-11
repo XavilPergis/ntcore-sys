@@ -12,7 +12,9 @@ fn main() {
 
     bindgen::Builder::default()
         .header("ntcore_c.h")
-        .blacklist_type("max_align_t") // Rust can't represent the type of float this uses
+        .whitelist_type("NT_.*")
+        .whitelist_function("NT_.*")
+        .whitelist_var("NT_.*") // Whitelist all the NT_* items
         .generate()
         .expect("Failed to generate binding for ntcore.")
         .write_to_file(path).expect("Failed writing ntcore bindings to output file.");
