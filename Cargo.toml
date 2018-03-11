@@ -1,5 +1,5 @@
 [package]
-name = "networktables-sys"
+name = "ntcore-sys"
 version = "0.1.0"
 authors = ["XavilPergis <max.duzen@gmail.com>"]
 build = "build.rs"
