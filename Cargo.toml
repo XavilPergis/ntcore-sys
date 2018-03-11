@@ -5,6 +5,7 @@ authors = ["XavilPergis <max.duzen@gmail.com>"]
 description = "Raw bindings to WPI's ntcore"
 repository = "https://github.com/XavilPergis/ntcore-sys"
 categories = ["api-bindings", "external-ffi-bindings"]
+licences = "BSD-3-Clause"
 
 build = "build.rs"
 exclude = ["lib/**"]
